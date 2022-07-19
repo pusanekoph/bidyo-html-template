@@ -1,0 +1,133 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bar {
+    background-color: black;
+    border-radius: 70px;
+    height: 80px;
+}
+.d1 {
+    float: left;
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: default;
+}
+.d1::selection {
+    background-color: #000;
+    color: #fff;
+}
+.aa1 {
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+}
+.aa1 img {
+    height: 40px;
+}
+.aa1 img:hover {
+    opacity: .5;
+    transition: .5s;
+}
+.a1 {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border: solid 1px #fff;
+}
+.a1:hover {
+    color: white;
+    border: none;
+    transition: .5s;
+}
+::selection {
+    background-color: #fff;
+    color: #000;
+}
+.a2 {
+    font-size: 30px;
+    color: white;
+    padding: 10px 15px;
+    background-color: black;
+    cursor: default;
+}
+.a2::selection {
+    background-color: #000;
+    color: #fff;
+}
+.d2 {
+    text-align: center;
+    cursor: default;
+}
+.d2::selection {
+    background-color: #fff;
+}
+.a3 {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: black;
+}
+.a3:hover {
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+    transition: .5s;
+}
+.a3::selection {
+    background-color: #000;
+    color: #fff;
+}
+p::selection {
+    background-color: white;
+    color: #000;
+}
+.a4 {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: gray;
+    cursor: default;
+}
+.a4::selection {
+    background-color: gray;
+    color: white;
+}
+div {
+    text-align: center;
+}
+.d3 {
+    display:flex;
+}
+.d3 div {
+    flex:1;
+    margin:5px; /* need some space ?*/
+}
+.d3 div a {
+    text-decoration: none;
+    color: #000;
+}
+.d3 div a:hover {
+    text-decoration: overline;
+    color: gray;
+}
+.d3 div a img {
+    width:100%;
+    border: solid 2px #000;
+}
+.d3 div a img:hover {
+    opacity: .5;
+    transition: .5s;
+}
+.a5 {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+.a5:hover {
+    border: solid 1px #000;
+}
